@@ -1,11 +1,14 @@
 
 function Explanation() {
     const h2style: React.CSSProperties = {
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'Display'
+
     };
 
     const h3style: React.CSSProperties = {
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'Display'
     };
 
     return (

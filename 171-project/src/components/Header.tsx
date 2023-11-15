@@ -5,7 +5,8 @@ function Header() {
         padding: '10px',
         fontFamily: 'Display',
         textAlign: 'center',
-        color: 'blue'
+        color: 'blue',
+        fontSize: '60px'
     };
     
     return <h1 style={headingStyle}>Mutli-Image Classification Analysis</h1>;
