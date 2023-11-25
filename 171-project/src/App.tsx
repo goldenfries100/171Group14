@@ -1,7 +1,7 @@
 import ListGroup from './components/Explanation';
 import Header from './components/Header';
 import Explanation from './components/Explanation';
-import ImageInput from './components/ImageInput';
+import ModelOutput from './components/ModelOutput';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <div className='bg'></div>
         <Explanation />
         <ImageInput />
+        <ModelOutput />
       </div>
     </>
   );
