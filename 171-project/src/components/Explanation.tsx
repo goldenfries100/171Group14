@@ -8,7 +8,8 @@ function Explanation() {
 
     const h3style: React.CSSProperties = {
         textAlign: 'center',
-        fontFamily: 'Display'
+        fontFamily: 'Display',
+        paddingBottom: '10px',
     };
 
     return (

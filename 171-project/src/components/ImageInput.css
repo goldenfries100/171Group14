@@ -1,7 +1,17 @@
 .image-input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image-input-container img {
+  width: 100%; /* Make the image fill the container */
+  margin-bottom: 10px; /* Add some space below the image */
+}
+
+.image-input-container input {
+  margin-top: 10px; /* Add some space above the input */
+  z-index: 2;
+}
