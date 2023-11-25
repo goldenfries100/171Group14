@@ -6,9 +6,12 @@ import ImageInput from './components/ImageInput';
 function App() {
   return (
     <>
-      <div><Header /></div>
-      <div><Explanation /></div>
-      <div><ImageInput /></div>
+      <Header />
+      <div>
+        <div className='bg'></div>
+        <Explanation />
+        <ImageInput />
+      </div>
     </>
   );
 }

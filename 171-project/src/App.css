@@ -1,6 +1,55 @@
+* {
+  position: relative;
+}
 body {
-    background-color: #7ec9e6; /* Replace with your desired color code */
-    margin: 0;
-    padding: 0;
-    font-family: 'Your Font Name', sans-serif; /* Optional: Setting a font-family */
-  }
+  background-color: #7ec9e6; /* Replace with your desired color code */
+  background-color: #23272f;
+  color: rgb(234, 234, 234);
+  font-family: 'Display', sans-serif;    /* Optional: Setting a font-family */
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bg {
+  position: fixed;
+  left: 5%;
+  right: 5%;
+  z-index: 0;
+  background-image: url('.\\assets\\gallery.jpg');
+  filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-color: #23272F;
+  font-size: 55px;
+  padding: 20px;
+}
+
+h2, h3, .image-input-container {
+  background-color: #191C22ee;
+  border-radius: 25px;
+  padding: 20px;
+  margin-inline: 10%;
+}
+
+h3 {
+  padding: 30px;
+}
+
+.image-input-container {
+  border-radius: 25px;
+  margin-inline: 20%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: #222; */
+  /* width: fit-content; */
+  /* height: 100vh; */
+}
