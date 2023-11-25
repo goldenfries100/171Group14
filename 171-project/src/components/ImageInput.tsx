@@ -1,4 +1,5 @@
 import React, { ChangeEvent, useState } from 'react';
+import './ImageInput.css'; // Import a CSS file for styling
 
 const ImageInput: React.FC = () => {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
@@ -18,9 +19,9 @@ const ImageInput: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="image-input-container">
+      {imageUrl && <img src={imageUrl} alt="Selected Image" style={{ maxWidth: '10%', justifyContent: 'center'}} />}
       <input type="file" accept="image/*" onChange={handleImageChange} />
-      {imageUrl && <img src={imageUrl} alt="Selected Image" style={{ maxWidth: '100%' }} />}
     </div>
   );
 };
