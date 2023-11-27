@@ -9,7 +9,7 @@ function App() {
       <div>
         <div className='bg'></div>
         <Explanation />
-        <ModelOutput />
+        <ModelOutput className = 'model'/>
       </div>
     </>
   );

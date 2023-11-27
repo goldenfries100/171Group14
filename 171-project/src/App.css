@@ -35,7 +35,7 @@ h1 {
   padding: 20px;
 }
 
-h2, h3, .image-input-container {
+h2, h3, .image-input-container, model {
   background-color: #191C22ee;
   border-radius: 25px;
   padding: 20px;
@@ -57,4 +57,8 @@ h3 {
   /* background-color: #222; */
   /* width: fit-content; */
   /* height: 100vh; */
+}
+
+model {
+    height: 20%;
 }
