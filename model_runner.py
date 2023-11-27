@@ -7,6 +7,7 @@ CNN_MODEL_PATH = 'cnn_model.keras'
 KNN_MODEL_PATH = 'knn_model.keras'
 
 
+
 if __name__ == '__main__':
     # load models
     cnn_model = tf.keras.models.load_model(CNN_MODEL_PATH)
