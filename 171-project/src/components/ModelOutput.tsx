@@ -9,7 +9,7 @@ const ModelOutput: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='model'>
       <ImageInput onImageProcessed={handleImageProcessed} />
       {output && (
         <div style={{ marginTop: '10px', paddingLeft: '20px' }}>
