@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 CNN_MODEL_PATH = 'cnn_model.keras'
 KNN_MODEL_PATH = 'knn_model.keras'
-RNN_MODEL_PATH = 'rnn_cnn.keras'
+RNN_MODEL_PATH = './src/rnn_cnn.keras'
 LABEL_NAMES = ['Airplane','Automobile','Bird','Cat','Deer'
                ,'Dog','Frog','Horse','Ship','Truck']
 
