@@ -11,7 +11,8 @@ const ModelOutput: React.FC = () => {
       'headers': {'Content-Type': 'application/json'},
       body: outputText
     }).then((response: { json: () => any; }) => response.json()).catch((error: any) => console.log(error));
-    setOutput(String(data['hello']))
+    // console.log(data)
+    setOutput(String(data['label']))
   };
 
   return (
@@ -19,7 +20,7 @@ const ModelOutput: React.FC = () => {
       <ImageInput onImageProcessed={handleImageProcessed} />
       {output && (
         <div>
-          <p>Output: {output}</p>
+          <p>Prediction: {output}</p>
         </div>
       )}
     </div>
