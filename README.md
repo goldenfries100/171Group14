@@ -3,7 +3,7 @@ Project for 171 - Group 14
 
 #NOTE: For our ipynb project file, you need to launch it in Google CoLab. If you run it in Jupyter Notebooks, inconsistencies in package versions can cause issues which might stop the file from running. PLEASE use Google CoLab to run project.ipynb :)
 
-To run our project, you will need to launch a Flask server before you launch our website. Please make sure to view our code in Visual Studio Code, if you don't have it already installed, here is a link to how you can do so: [https://code.visualstudio.com/download](url).
+To run our project, you will need to launch a Flask server before you launch our website. Please make sure to view our code in VS Code, if you don't have it already installed, here is a link to how you can do so: [https://code.visualstudio.com/download](url).
 
 If you're familiar with GitHub, please clone our repository. If not, please install GitHub Desktop from this link: [https://desktop.github.com/](url). Return to the GitHub repository home page and click on the green 'Code' button and then 'Open with GitHub Desktop'. Once the GitHub Desktop page opens up, please click on 'Open with Visual Studio Code'. 
 
